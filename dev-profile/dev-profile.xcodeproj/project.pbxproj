@@ -12,6 +12,7 @@
 		1392D57A21906724002C9DFC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1392D57821906724002C9DFC /* Main.storyboard */; };
 		1392D57C21906725002C9DFC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1392D57B21906725002C9DFC /* Assets.xcassets */; };
 		1392D57F21906725002C9DFC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1392D57D21906725002C9DFC /* LaunchScreen.storyboard */; };
+		1392D58821906A30002C9DFC /* RoundedCorners.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1392D58721906A30002C9DFC /* RoundedCorners.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		1392D57B21906725002C9DFC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1392D57E21906725002C9DFC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		1392D58021906725002C9DFC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1392D58721906A30002C9DFC /* RoundedCorners.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoundedCorners.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +56,7 @@
 		1392D57321906724002C9DFC /* dev-profile */ = {
 			isa = PBXGroup;
 			children = (
+				1392D58621906A0B002C9DFC /* Views */,
 				1392D57421906724002C9DFC /* AppDelegate.swift */,
 				1392D57621906724002C9DFC /* ViewController.swift */,
 				1392D57821906724002C9DFC /* Main.storyboard */,
@@ -62,6 +65,14 @@
 				1392D58021906725002C9DFC /* Info.plist */,
 			);
 			path = "dev-profile";
+			sourceTree = "<group>";
+		};
+		1392D58621906A0B002C9DFC /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				1392D58721906A30002C9DFC /* RoundedCorners.swift */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -136,6 +147,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				1392D57721906724002C9DFC /* ViewController.swift in Sources */,
+				1392D58821906A30002C9DFC /* RoundedCorners.swift in Sources */,
 				1392D57521906724002C9DFC /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
